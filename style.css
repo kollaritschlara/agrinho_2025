@@ -1,4 +1,4 @@
-/* Reset básico */
+/* Estilo base */
 * {
   margin: 0;
   padding: 0;
@@ -6,42 +6,69 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
-  background-color: #f5f9f3;
+  background-color: #f4f9f4;
   color: #333;
   padding: 20px;
 }
 
 header {
-  background-color: #4caf50;
-  color: white;
-  padding: 30px 20px;
   text-align: center;
-  border-radius: 10px;
+  background: #a8d5ba;
+  padding: 30px 20px;
+  border-radius: 12px;
   margin-bottom: 30px;
 }
 
-main section {
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+header h1 {
+  font-size: 2.5rem;
+  color: #2e6049;
 }
 
-h1, h2 {
+.subtitulo {
+  font-size: 1.2rem;
+  color: #3c6e5b;
+  margin-top: 10px;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.texto {
+  margin-bottom: 40px;
+}
+
+.texto h2 {
+  font-size: 1.8rem;
+  color: #447a63;
   margin-bottom: 10px;
 }
 
-ul {
-  list-style: disc inside;
-  margin-top: 10px;
+.texto p {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.galeria {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.galeria img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 footer {
   text-align: center;
-  margin-top: 40px;
-  color: #777;
-  font-size: 0.9em;
+  margin-top: 50px;
+  color: #666;
+  font-size: 0.9rem;
 }
